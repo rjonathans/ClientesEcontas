@@ -1,8 +1,8 @@
 package br.com.digitalhouse;
 
-public class Cliente {
-
+class Cliente {
     private static String nome;
+    private static String sobrenome;
 
     public static void setNome(String nome) {
         Cliente.nome = nome;
@@ -20,6 +20,5 @@ public class Cliente {
         return sobrenome;
     }
 
-    private static String sobrenome;
 
 }
